@@ -31,7 +31,7 @@ module.exports = () => {
         inject: true,
         name: 'text-editor',
         short_name: 'JATE',
-        description: 'Jest Another Text Editor!',
+        description: 'Just Another Text Editor!',
         background_color: '#272822',
         theme_color: '#272822',
         start_url: '/',
@@ -58,7 +58,7 @@ module.exports = () => {
           use: {
             loader: 'babel-loader',
             options: {
-              presets: ['@babel/preset-enc'],
+              presets: ['@babel/preset-env'],
               plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime']
             },
           },
